@@ -6,13 +6,13 @@
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">Quick Links</h2>
                 <ul class="text-white font-medium">
                     <li class="mb-4 text-white">
-                        <a href="#" class=" hover:underline">Home</a>
+                        <a href="#home" class=" hover:underline">Home</a>
                     </li>
                     <li class="mb-4">
-                        <a href="#" class="hover:underline">About</a>
+                        <a href="#about" class="hover:underline">About</a>
                     </li>
                     <li class="mb-4">
-                        <a href="#" class="hover:underline">Pharmacist</a>
+                        <a href="#pharmacist" class="hover:underline">Pharmacist</a>
                     </li>
                 </ul>
             </div>
@@ -42,8 +42,6 @@
                     <li class="mb-4">
                         <a href="#" class="hover:underline">Licensing</a>
                     </li>
-                    <li class="mb-4">
-                        <a href="#" class="hover:underline">Terms &amp; Conditions</a>
                     </li>
                 </ul>
             </div>
