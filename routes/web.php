@@ -1,5 +1,7 @@
 <?php
 
+use App\Models\Apoteker;
+use App\Models\Resep;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,19 +17,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index', [
-        'pharmacist' => [
-            [
-                'nama' => 'Hadie'
-            ],
-            [
-                'nama' => 'Naufal'
-            ],
-            [
-                'nama' => 'Maezar'
-            ],
-            [
-                'nama' => 'Diky'
-            ]
-        ]
+    "apoteker" => Apoteker::all(),
+    "resep" => Resep::all()
     ]);
-})->name('index');
+    })->name('index');
