@@ -12,6 +12,9 @@
                         <a href="#about" class="hover:underline">About</a>
                     </li>
                     <li class="mb-4">
+                        <a href="#recipe" class="hover:underline">Drug Recipe</a>
+                    </li>
+                    <li class="mb-4">
                         <a href="#pharmacist" class="hover:underline">Pharmacist</a>
                     </li>
                 </ul>

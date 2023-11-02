@@ -15,7 +15,6 @@
     @extends('layouts.global')
     @section('content')
         @include('components.navbar')
-        {{-- @include('auth.auth') --}}
         @include('components.home')
         @include('components.about')
         @include('components.recipe')

@@ -2,8 +2,9 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class Apoteker extends Model
 {
@@ -11,9 +12,15 @@ class Apoteker extends Model
 
     protected $table = 'apotekers';
     protected $fillable = ['id_apoteker', 'nama_apoteker', 'alamat_apoteker'];
+    protected $appends = ['total_resep'];
 
-    public function apotekers()
+    public function apoteker(): HasMany
     {
-        return $this->belongsToMany(Apoteker::class);
+        return $this->HasMany(Resep::class);
+    }
+
+    public function getTotalResepAttribute()
+    {
+        return $this->resep->count();
     }
 }

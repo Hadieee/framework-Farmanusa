@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('nama_resep');
             $table->string('nama_obat');
             $table->integer('jumlah_obat');
-            $table->string('apoteker_id')->constrained();
+            $table->foreignId('apoteker_id')->constrained();
             $table->timestamps();
         });
     }

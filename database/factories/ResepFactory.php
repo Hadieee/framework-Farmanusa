@@ -20,7 +20,28 @@ class ResepFactory extends Factory
         return [
             'id_resep' => fake()->unique()->numberBetween(1000000000, 9999999999),
             'nama_resep' => fake()->name(),
-            'nama_obat' => fake()->name(),
+            'nama_obat' => fake()->randomElement([
+                'Parasetamol',
+                'Ibuprofen',
+                'Aspirin',
+                'Omeprazol',
+                'Amoksisilin',
+                'Metformin',
+                'Amlodipin',
+                'Simvastatin',
+                'Ranitidin',
+                'Cefuroksim',
+                'Ketoprofen',
+                'Prednison',
+                'Cetirizine',
+                'Loratadin',
+                'Erythromycin',
+                'Alprazolam',
+                'Atorvastatin',
+                'Losartan',
+                'Furosemid',
+                'Levofloxacin'
+            ]),
             'jumlah_obat' => fake()->numberBetween(1, 99),
             'apoteker_id' => Apoteker::all()->random()->id
         ];
