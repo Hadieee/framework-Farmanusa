@@ -21,3 +21,35 @@ Posttest Framework (Farmanusa)
 ### 4. Footer
 
 ![footer](https://github.com/Hadieee/framework-Farmanusa/blob/main/public/assets/images/footer_page.png)
+
+### 5. Register Page
+
+![image](https://github.com/Hadieee/framework-Farmanusa/blob/main/public/assets/images/register.png)
+
+### 6. Login Page
+
+![image](https://github.com/Hadieee/framework-Farmanusa/blob/main/public/assets/images/login.png)
+
+### 7. Dashboard Page
+
+![image](https://github.com/Hadieee/framework-Farmanusa/blob/main/public/assets/images/dashboard.png)
+
+### 8. Apoteker Page
+
+![image](https://github.com/Hadieee/framework-Farmanusa/blob/main/public/assets/images/apoteker.png)
+
+### 9. Resep Obat Page
+
+![image](https://github.com/Hadieee/framework-Farmanusa/blob/main/public/assets/images/resep_obat.png)
+
+### 10. Add Resep Obat Page
+
+![image](https://github.com/Hadieee/framework-Farmanusa/blob/main/public/assets/images/tambah_data.png)
+
+### 11. Update Resep Obat Page
+
+![image](https://github.com/Hadieee/framework-Farmanusa/blob/main/public/assets/images/edit_data.png)
+
+### 12. Delete Resep Obat Page
+
+![image](https://github.com/Hadieee/framework-Farmanusa/blob/main/public/assets/images/hapus_data.png)
