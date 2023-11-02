@@ -65,12 +65,11 @@ Route::get('/', function () {
             return view('staff.pesan');
         })->name('staff.pesan');
 
-    });
-    
-    Route::controller(ResepController::class)->group(function () {
-        Route::get('/staff/resep/tambah', 'tambah')->name('staff.add');
-        Route::post('/staff/resep/tambah/action', 'store')->name('staff.store');
-        Route::get('/staff/resep/edit/{id}', 'edit')->name('staff.edit');
-        Route::post('/staff/resep/edit/{id}/action', 'update')->name('staff.update');
-        Route::post('/staff/resep/delete/{id}/action', 'delete')->name('staff.delete');
+        Route::controller(ResepController::class)->group(function () {
+            Route::get('/staff/resep/tambah', 'tambah')->name('staff.add');
+            Route::post('/staff/resep/tambah/action', 'store')->name('staff.store');
+            Route::get('/staff/resep/edit/{id}', 'edit')->name('staff.edit');
+            Route::post('/staff/resep/edit/{id}/action', 'update')->name('staff.update');
+            Route::post('/staff/resep/delete/{id}/action', 'delete')->name('staff.delete');
+        });
     });
